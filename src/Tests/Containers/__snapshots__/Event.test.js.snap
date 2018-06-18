@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Event /> should generate snapshot for Event component 1`] = `
+<li
+  className="ev-card-container col-sm-12 col-xs-12 col-md-6 col-lg-4"
+>
+  <section
+    className="evt-card"
+  >
+    <div
+      className="evt-date-col"
+    >
+      <p>
+        16
+      </p>
+      <p>
+        OCT
+      </p>
+      <p>
+        1:00
+      </p>
+      <p>
+        Onwards
+      </p>
+    </div>
+    <div
+      className="evt-info-col"
+    >
+      <p
+        title="Madison Square Garden"
+      >
+        Madison Square Garden
+      </p>
+      <p
+        title="New York, United States"
+      >
+        New York
+        , 
+        United States
+      </p>
+      <a
+        href="https://www.google.com/maps?q=40.7507387,-73.9937978"
+        target="_blank"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m25.6 14.3q0-2.4-1.6-4.1t-4.1-1.6-4 1.6-1.7 4.1 1.7 4 4 1.7 4.1-1.7 1.6-4z m5.8 0q0 2.4-0.8 4l-8.1 17.3q-0.4 0.7-1.1 1.1t-1.5 0.4-1.5-0.4-1-1.1l-8.2-17.3q-0.7-1.6-0.7-4 0-4.7 3.3-8.1t8.1-3.3 8.1 3.3 3.4 8.1z"
+            />
+          </g>
+        </svg>
+        Show on map
+      </a>
+    </div>
+    <footer>
+      <a
+        className="Book-now"
+        href="https://www.bandsintown.com/e/1001879056?app_id=ID&came_from=267"
+        target="_blank"
+      >
+        Tickets & RSVP
+      </a>
+    </footer>
+  </section>
+</li>
+`;
+
+exports[`<Event /> should generate snapshot for Event component 2`] = `
+<li
+  className="ev-card-container col-sm-12 col-xs-12 col-md-6 col-lg-4"
+>
+  <section
+    className="evt-card"
+  >
+    <div
+      className="evt-date-col"
+    >
+      <p>
+        26
+      </p>
+      <p>
+        AUG
+      </p>
+      <p>
+        0:30
+      </p>
+      <p>
+        Onwards
+      </p>
+    </div>
+    <div
+      className="evt-info-col"
+    >
+      <p
+        title="Parque Fundidora"
+      >
+        Parque Fundidora
+      </p>
+      <p
+        title="Monterrey, Mexico"
+      >
+        Monterrey
+        , 
+        Mexico
+      </p>
+      <a
+        href="https://www.google.com/maps?q=25.6666667,-100.3166667"
+        target="_blank"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m25.6 14.3q0-2.4-1.6-4.1t-4.1-1.6-4 1.6-1.7 4.1 1.7 4 4 1.7 4.1-1.7 1.6-4z m5.8 0q0 2.4-0.8 4l-8.1 17.3q-0.4 0.7-1.1 1.1t-1.5 0.4-1.5-0.4-1-1.1l-8.2-17.3q-0.7-1.6-0.7-4 0-4.7 3.3-8.1t8.1-3.3 8.1 3.3 3.4 8.1z"
+            />
+          </g>
+        </svg>
+        Show on map
+      </a>
+    </div>
+    <footer>
+      <a
+        className="Book-now"
+        href="https://www.bandsintown.com/e/1008981694?app_id=ID&came_from=267"
+        target="_blank"
+      >
+        Tickets & RSVP
+      </a>
+    </footer>
+  </section>
+</li>
+`;

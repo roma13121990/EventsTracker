@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Should generate snapshot for Header component 1`] = `
+<header
+  className="App-header row"
+>
+  <a
+    className="App-logo col-xs-6 col-md-6 col-sm-6 col-lg-6"
+    href="https://www.bandsintown.com/?came_from=257"
+  >
+    <img
+      alt="Bandsintown Fist"
+      src="https://assets.bandsintown.com/images/bitFist.svg"
+    />
+    <img
+      alt="Bandsintown Text"
+      className="Logo-text"
+      src="https://assets.bandsintown.com/images/bitText.svg"
+    />
+  </a>
+  <div
+    className="Searchbar col-xs-6 col-md-6 col-sm-6 col-lg-6"
+  >
+    <div>
+      <img
+        alt=""
+        src="https://assets.bandsintown.com/images/loupe.svg"
+      />
+      <input
+        className="value"
+        onKeyPress={[Function]}
+        placeholder="eg. Maroon 5"
+        type="text"
+      />
+    </div>
+  </div>
+</header>
+`;
