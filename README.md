@@ -30,6 +30,8 @@ Your app is ready to be deployed!
 * HomePage
 * Poster
 * Events
+
+###
 `Header` contains logic to search an Artist by name.
      
 `HomePage` contains logic for rendering header, Poster and the events of searched Artist.
@@ -41,25 +43,25 @@ Your app is ready to be deployed!
 
 #Algorithm details
 
-Application uses reducers for firing action on search.
-Components are connected to store so that action fired on same state, state is returned without mutation.
-All api calls are handled in webApi file
+* Application uses reducers for firing action on search.
+* Components are connected to store so that action fired on same state, state is returned without mutation.
+* All api calls are handled in webApi file
 
 ## Other Highlights
 
-Loader is added across application for enhanced user experience
-Use of Redux for storing data on refresh
-User can directly book tickets with the help of 'Tickets and RSVP button'
-User can directly go to the facebook page of Artist by clicking on FB icon(which is available only if there exist FB page of that artist)
-User can see the location of the venue on Google map which is navigated on click of "Show on map" link
-Snapshot testing  
+* Loader is added across application for enhanced user experience
+* Use of Redux for storing data on refresh
+* User can directly book tickets with the help of 'Tickets and RSVP button'
+* User can directly go to the facebook page of Artist by clicking on FB icon(which is available only if there exist FB page of that artist)
+* User can see the location of the venue on Google map which is navigated on click of "Show on map" link
+* Snapshot testing  
        
 ## Things which can be considered     
 
-User login
-Storing user favorite events.
-Showing days remaining for the event.
-Showing if the tickets are available.
+* User login
+* Storing user favorite events.
+* Showing days remaining for the event.
+* Showing if the tickets are available.
     
 ### Hope the design is self explanatory :-)
 
